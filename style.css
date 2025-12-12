@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.Style{
+    font-family: "Dancing Script", cursive;
+}
+.Image_nave{
+    background: url(images/hero-bg.jpg);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Nave_color{
+    background: #050505;
+    background: linear-gradient(177deg, rgba(5, 5, 5, 1) 40%, rgba(87, 84, 81, 1) 78%, rgba(156, 154, 154, 0.93) 100%);
+}
+.btn_carousel{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+}
+.boutton_Carousel{
+    position: relative;
+    margin: 0;
+    top: 250px;
+    justify-content: start;
+}
+.OH{
+    font-size: 16px;
+}
+.card_backgroun_color{
+    color: white !important;
+    background-color: #202831 !important;
+}
+.card_image_cercle{
+    border: solid 3px orange;
+    border-radius: 50%;
+}
+
+.OurMenu_nave:hover{
+    background-color: #050505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    transition: 1s;
+} 
+.Shop_icone{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.treeCard_bg{
+    color: white;
+    background-color: #050505;
+}
+.treeCard{
+    border-bottom-left-radius: 20%;
+}
+.treeCard img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.image_Corousel_2{
+    height: 150px;
+    width: 150px;
+    border: solid 4px orange;
+    border-radius: 50%;
+}
+.button_caroucel{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    cursor: pointer;
+}
+.button_caroucel:hover{
+    background-color: rgb(170, 119, 24);
+}
+.hover_nave:hover{
+    color: orange !important;
+    text-decoration: underline;
+}
+.Page_actuel{
+    color: orange !important;
+    text-decoration: underline;
+}
+.Card_hover:hover{
+    transition: 0.3s ease-in-out all;
+    transform: scale(1.010);
+}
+.Card_hover:hover img{
+    transition: 0.2s ease-in-out alternate;
+    transform: scale(1.05);
+}
+.Hover_footer:hover{
+    color: orange !important;
+    transition: 0.5s ease-in-out all;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .card_image_cercle{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    .card_rediction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
