@@ -21,7 +21,7 @@
 .boutton_Carousel{
     position: relative;
     margin: 0;
-    top: 250px;
+    top: 280px;
     justify-content: start;
 }
 .OH{
@@ -117,8 +117,8 @@
 }
 @media (max-width:768px) {
     .card_image_cercle{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         text-align: center;
     }
     .card_rediction{
