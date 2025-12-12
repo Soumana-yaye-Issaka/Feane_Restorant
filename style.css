@@ -4,7 +4,7 @@
 }
 .Image_nave{
     background: url(images/hero-bg.jpg);
-    height: 95vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,6 +46,16 @@
     color: white;
     transition: 1s;
 } 
+.All{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050505;
+    width: 60px !important;
+    color: white;
+    border-radius: 15px;
+}
+
 .Shop_icone{
     height: 40px;
     width: 40px;
@@ -101,6 +111,10 @@
     transition: 0.5s ease-in-out all;
     cursor: pointer;
 }
+
+.top{
+    margin-top: 130px !important;
+}
 @media (max-width:768px) {
     .card_image_cercle{
         width: 200px;
@@ -112,5 +126,12 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    .button_Photo{
+        background: url(images/hero-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
     }
 }
